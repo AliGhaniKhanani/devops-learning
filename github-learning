@@ -1,0 +1,15 @@
+# My Learning of Git & GitHub
+
+I’ve been diving deep into Git & GitHub and wanted to share what I’ve learned.
+
+## Key Commands
+
+- **Cloning projects:** `git clone <repo-url>`  
+- **Tracking changes:** `git status`  
+- **Staging & committing:** `git add .` → `git commit -m "message"`  
+- **Pushing updates:** `git push`  
+- **Pulling updates:** `git pull`  
+- **Branching:** `git checkout -b feature-branch`  
+- **Undoing mistakes:** `git reset --soft HEAD~1`
+
+💡 Lesson learned: Git isn’t just a tool—it’s a workflow mindset. Staging, committing, pushing, and pulling teaches patience, structure, and collaboration.
