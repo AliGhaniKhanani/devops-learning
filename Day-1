@@ -1,0 +1,38 @@
+📂 File & Directory Management
+ls → List files
+ls -l → List with details (permissions, size, owner)
+ls -a → Show hidden files (hidden files start with .)
+pwd → Present working directory
+/ → Root directory
+mkdir folderName → Create directory
+touch file.txt → Create file
+
+❌ Delete Files & Folders
+rm index.txt → Delete file
+rm -r folderName/ → Delete folder + contents (⚠ recursive)
+rmdir folderName/ → Delete empty folder
+
+File Content Handling
+cat file.txt → View file content
+head file.txt → View top lines
+tail file.txt → View last lines
+tail -f file.txt → Monitor file changes (logs 🔥)
+echo "Hello World" → Print text
+echo "Hello World" > file.txt → Write text into file (creates file if not exists)
+
+📁 Copy & Move
+cp file.txt devops/ → Copy file
+cp devops/file.txt cloud/ → Copy from one folder to another
+cp -r cloud/ devops/ → Copy folder recursively
+mv file.txt ../cloud/ → Move file
+mv devops linux_for_devops → Rename folder
+
+🔗 Links in Linux
+ Soft link → breaks if original file is deleted
+ Hard link → stays even if original file is deleted
+
+📊 System Monitoring
+df -h → Disk usage
+free -h → Memory usage
+vmstat → RAM & virtual memory stats
+top → Running processes
