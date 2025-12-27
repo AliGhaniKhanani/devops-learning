@@ -1,0 +1,78 @@
+
+🖥 System Information & Access
+
+uname → Identify OS type
+
+uptime → System running time
+
+who, whoami → Logged-in users
+
+which docker / java → Locate executable binary in use
+
+id → User ID & group ID
+
+sudo → Run administrative commands
+
+sudo shutdown now → Shutdown system safely
+
+
+
+📦 Package Management
+
+apt / apt-get → Install, update, remove packages
+
+sudo apt-get update → Refresh package list
+
+sudo apt remove docker.io → Uninstall packages
+
+Other Linux distros use:
+
+ yum, dnf, pacman, rpm
+
+
+
+👥 User & Group Management
+
+sudo useradd -m username → Create user + home directory
+
+sudo passwd username → Set user password
+
+su username → Switch user
+
+exit → Return to previous user
+
+cat /etc/passwd → View users
+
+sudo userdel username → Delete user
+
+
+
+Groups
+
+sudo groupadd groupName (to create group)
+
+cat /etc/group  (to check the groups created)
+
+Sudo gpasswd -a UserName GroupName (to add the user in specific group -a flag stands for add)
+
+Sudo gpasswd -M Username1, UserName2, UserName3 (to add multiple user in a group with single command)
+
+sudo groupdel groupName (to delete a group)
+
+
+
+🔐 File Permissions & Ownership
+
+ls -l → Check permissions
+
+drwxrwxr-x → Directory | User | Group | Others
+
+chmod 777 file → Full access (⚠ avoid in production)
+
+umask → Default permission settings
+
+sudo chown user file → Change file owner
+
+chgrp group file → Change group ownership
+
+
