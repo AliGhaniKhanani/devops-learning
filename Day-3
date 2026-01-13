@@ -1,0 +1,85 @@
+If you’re learning Linux or DevOps, one of the first things you should understand is how Linux organizes its filesystem.
+
+
+
+ Unlike Windows, everything in Linux starts from / (root) — and each directory has a specific purpose.
+
+
+
+Here’s a beginner-friendly breakdown 👇
+
+
+
+🔹 /etc
+
+ Stores all system and application configuration files.
+
+ Think of it as the control center for services.
+
+
+
+🔹 /usr
+
+ Contains installed software, libraries, and binaries.
+
+ Most applications you install live here.
+
+
+
+🔹 /var
+
+ Holds variable data like logs, cache files, and spools.
+
+ 📌 /var/log is especially important for troubleshooting.
+
+
+
+🔹 /bin
+
+ Includes essential non-admin commands (like ls, cp, cat).
+
+ Available to all users.
+
+
+
+🔹 /sbin
+
+ Contains system administration (root) commands.
+
+ Used mainly for system maintenance.
+
+
+
+🔹 /proc
+
+ A virtual filesystem that provides real-time system and hardware information.
+
+ Great for monitoring processes and kernel data.
+
+
+
+🔹 /home
+
+ Stores user profiles and personal data.
+
+ Each user gets their own directory here.
+
+
+
+🔹 /boot
+
+ Contains the Linux kernel and bootloader files.
+
+ Critical for system startup.
+
+
+
+💡 Why this matters:
+
+ Understanding the Linux directory structure helps you:
+
+1) Debug issues faster
+
+2) Manage servers confidently
+
+3) Perform better in DevOps & Linux interviews
